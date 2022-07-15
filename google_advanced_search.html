@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="css/googleadvanced_style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <img src="/google_PNG.png" alt="">
+        </div>
+        <div class="nav-container">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="/google_search.html" class="nav-link">Google Search</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/google_search images.html" class="nav-link">Google Images</a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" id="button2">Sign In</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="heading">
+        <h2 id="heading">Advanced Search</h2>
+    </div>
+
+    <div class="linebreak">
+        <hr>
+    </div>
+
+
+    <form action="https://www.google.com/search" method="get">
+        <main class="main-container">
+            <div class="row">
+                <div class="column"> <span id="coltitle1">Find pages with...</span> </div>
+                <div class="column"></div> 
+            </div>
+            
+            <div class="row">
+                <div class="column">all these words</div>
+                <div class="column"><input type="text" name="as_q"></div>
+                <div class="column">Type the important words: tri-colour rat terrier</div>
+            </div>
+
+            <div class="row">
+                <div class="column">this exact word or phrase:</div>
+                <div class="column"><input type="text" name="as_epq"></div>
+                <div class="column">Put exact words in quotes: "rat terrier"</div>
+            </div>
+
+            <div class="row">
+                <div class="column">any of these words:</div>
+                <div class="column"><input type="text" name="as_oq"></div>
+                <div class="column">Type OR between all the words you want: miniature OR standard</div>
+            </div>
+
+            <div class="row">
+                <div class="column">none of these words:</div>
+                <div class="column"><input type="text" name="as_eq"></div>
+                <div class="column">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+            </div>
+
+            <div class="submit">
+                <input type="submit" id="inputsubmit" value="Advanced Search">
+            </div>
+            
+        </main>
+    </form>
+    
+    
+    
+    
+</body>
