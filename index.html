@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <script src="https://kit.fontawesome.com/7d981fc66b.js" crossorigin="anonymous"></script>
+    <script src="/googlesearch.js"></script>
+    <link rel="stylesheet" href="css/google_search_style.css">
+</head>
+<body>
+    <div class="containermain">
+        <nav class="navbar">
+            <div class="nav-container">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="/google_search images.html" class="nav-link">Google Images</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/google_advanced_search.html" class="nav-link">Advanced Google Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" id="button2">Sign In</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <form class="container" action="https://www.google.com/search" method="get" id="formsubmit">
+            <div class="section">
+                <div class="image">
+                    <img src="/google_PNG.png" alt="google">
+                </div>
+                <div class="input">
+                    <div class="inputsub">
+                        <input type="text" name="q" id="inputbar">
+                        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    </div>
+                </div>
+                <div class="input2">
+                    <input type="submit" value="Search" id="input2">
+                    <button type="button" id="button" >I'm feeling lucky</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+
+    
+</body>
